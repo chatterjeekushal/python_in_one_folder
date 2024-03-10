@@ -1,0 +1,54 @@
+
+
+
+
+string
+
+string is data type that stores a sequence of characters
+
+
+Basic operations 
+
+.concatenation
+
+"hello"+"world -> "helloworld"
+
+.length of string
+
+len(str)
+
+
+.indexing
+
+p y t h o n 
+0 1 2 3 4 5
+
+str=python
+
+str[0]=p
+str[1]=y
+
+
+
+.slicing
+
+Accessing parts of a string
+
+str[starding_index:ending_index] # ending_index not include
+
+str="python"
+
+str[1:4]=yth
+
+.nagative indexing
+
+a  p  p  l  e
+-5 -4 -3 -2 -1
+
+str="apple"
+
+str[-3:-1] is "pl"
+
+
+
+
