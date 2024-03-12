@@ -74,9 +74,9 @@ print(str67.count("a")) # cound your string
 
 #wap to input users first name & print its length
 
-userinput=input("enter your name :")
+# userinput=input("enter your name :")
 
-print(len(userinput));
+# print(len(userinput));
 
 
 #wap to find the occurrence of "$" in a string
@@ -87,4 +87,60 @@ print(str78.count("$"))
 
 
 
+
+
+
+
+
+#conditional statements
+
+light="yellow"
+
+if(light=="red"):
+
+    print("stop")
+    
+
+elif(light=="green"):
+    print("go")
+
+else:
+    print("look")
+
+
+marks=84
+
+if(marks>=90):
+    
+    grade="a"
+
+elif(marks>=80 and marks< 90):
+
+    
+    grade="b"
+
+elif(marks>=70 and marks< 80):
+
+    grade="c"
+else:
+
+    grade="d"
+
+print("grade of the student is ",grade)    
+
+
+
+#nesting
+
+age2=85
+
+if(age2>=18):
+    
+    if(age2>=80):
+        print("you can not drve you over age")
+    else:
+        print("you drive")
+
+else:
+    print("you can not drive")
 
