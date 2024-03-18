@@ -71,3 +71,32 @@ list7.pop(1)
 print(list7)
 
 
+
+# practis set
+
+# user1=input("enter your name")
+
+# user2=input("enter your name")
+
+# user3=input("enter your name")
+
+# student=[user1,user2,user3]
+
+
+# print(student)
+
+
+
+palindrom=[1,2,3,2,1]
+
+palindrom1=palindrom.copy()
+
+palindrom1.reverse()
+
+if(palindrom1==palindrom):
+    print("palindrom true")
+
+else:
+    print("palindrom false")
+
+
