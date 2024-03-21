@@ -1,0 +1,72 @@
+
+
+Dictionary in python
+
+dictinories are use to store data values in key:value pairs
+
+they are unordered ,mutable and dont allow duplicate keys
+
+ex 
+
+dict={
+
+    "key":"value",
+    "name":"kushal",
+    "learning":"python"
+
+}
+
+
+print(dict)
+
+#if i want to set number floting value and touple set as a key
+
+
+
+
+
+
+#nested Dictionary
+
+
+student={
+
+    "name":"rahul kumar",
+    "subject":{
+
+        "phy":97,
+        "chem":98,
+        "math":90,
+
+    }
+
+
+}
+
+
+print(student[0])
+
+
+
+
+Dictionary mathod
+
+
+mydict.key() # returns all key
+
+
+mydict.values() # returns all values
+
+
+mydict.items() # returns all key value paire as tuples
+
+mydict.get("key") #returns the key according to value
+
+
+mydict.update(new dict) #returns the specified items to the Dictionary
+
+
+
+
+
+
