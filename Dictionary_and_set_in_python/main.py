@@ -103,6 +103,44 @@ print(student)
 
 
 
+# practic set
+
+
+
+my_dict={
+
+    "table":["a price of furntiture","list of facts and figures"],
+    "cat":"a small animal"
+}
+
+print(my_dict)
+
+
+# wap to enter marks of 3 subject from the user and store them in a dictionary start with an emty dictionary and add one by one use subject name as key and marks as value
+
+
+dict2={}
+
+key=input("enter your key")
+value=input("enter your value")
+dict2.update({key:value})
+
+
+print(dict2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
