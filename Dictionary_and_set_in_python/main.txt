@@ -70,3 +70,26 @@ mydict.update(new dict) #returns the specified items to the Dictionary
 
 
 
+=====================================================================================================
+
+
+SET IN python
+
+set is the collection of the unordered items
+
+each element in the set must be unique and immutable
+
+
+* set not count and print duplicate value
+* set have not any order
+
+***set is mutable but set element is inmutable
+
+
+
+
+
+
+
+
+
