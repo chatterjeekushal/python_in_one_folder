@@ -1,0 +1,13 @@
+
+
+# loop in python
+
+loops are use to repeat instruction
+
+while loop
+
+syntax:
+
+while condition:
+
+#some work
