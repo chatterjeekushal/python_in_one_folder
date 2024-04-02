@@ -11,3 +11,24 @@ syntax:
 while condition:
 
 #some work
+
+
+
+
+# break and continue in python
+
+break: used to terminate the loop when encountered.
+
+continue :terminates execution tn the current iteration and continues excution of the loop
+
+
+
+#for loop in python
+
+for loop used for sequential traversal for traversing list ,string,tuples 
+
+
+for loop
+
+for el in list:
+#some work
