@@ -5,25 +5,29 @@
 # break ka matlab loop ko chor kar nikal jau or contunue ka matlab itrasan ko chor kar nikal jau
 
 
+# for i in range(12):
+#     print("5 x",i,"=",5*i)
+#     if(i==10):
+#         print("skip the itasan")
+#         break
+
+
+
+# print("loop ko chor kar nikal gaya")
+
+
+
+
+
 for i in range(12):
-    print("5 x",i,"=",5*i)
+    
     if(i==10):
         print("skip the itasan")
-        break
-
-
-
-print("loop ko chor kar nikal gaya")
-
-
-
-
-
-for i in range(12):
-    print("2 x",i,"=",2*i)
-    if(i==10):
-        print("skip the itasan")
+        #i+=1 // otomatic done
         continue
+    else:
+        print("2 x",i,"=",2*i)
+        
 
 
 
@@ -38,19 +42,19 @@ print("loop ko chor kar nikal gaya")
 
 # find the number
 
-nums=(3,7,6,5,9,5,7,3,76,65)
+# nums=(3,7,6,5,9,5,7,3,76,65)
 
-x=76
+# x=76
 
-i=0
+# i=0
 
-while i<=len(nums):
-    if(nums[i]==x):
-        print("number found",i)
-        break
-    else:
-        print("finding number")
-        i+=1
+# while i<=len(nums):
+#     if(nums[i]==x):
+#         print("number found",i)
+#         break
+#     else:
+#         print("finding number")
+#         i+=1
 
 
 
@@ -62,17 +66,17 @@ while i<=len(nums):
 
 # continue in py using continue 
 
-l=0
+# l=0
 
-while l<=5:
-    if(l==3):
-        print(l)
+# while l<=5:
+#     if(l==3):
+#         print(l)
         
-        print("continue startment")
-        l+=1
-        continue #skip
-    print(l)
-    l+=1
+#         print("continue startment")
+#         l+=1
+#         continue #skip
+#     print(l)
+#     l+=1
 
 
 

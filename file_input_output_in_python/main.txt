@@ -1,0 +1,69 @@
+
+
+file i/o in python
+
+python can be used to perfome operations on a file (read and wright data)
+
+
+type of ile
+
+text file : txt,docx ,.log etc
+
+binary file : .mp4,.mov, .png,.jpg etc
+
+
+
+open ,read and close file
+
+we have to open a file before reading or writing
+
+f=open("file name","mode")
+
+file name: sample.txt ,demo.docx
+
+mode: read mode, wright mode 
+
+
+data=f.read()
+
+f.close()
+
+
+
+writing to a file
+
+f=open("demo.txt,"w)
+
+f.write("this is a new line") # over write the entire file
+
+
+
+
+character "r" : open for reading (defult)
+           
+           "w":open for writing truncating the first line
+            
+            "x":create a new file and open it for writing
+             
+             'a':open for writing appending to the end of the file if its exists
+              
+              'b':binary mode
+               
+               't':text mode
+                
+                '+':open a disk file for updating (read and wright) 
+
+                 'r+':read file and over wright text (pointer start) -no delete
+                   
+                   'w+': read and over eright -delete
+                     
+                     'a+': read and append mode (pointer end) -no delete 
+
+
+
+
+
+
+
+
+
