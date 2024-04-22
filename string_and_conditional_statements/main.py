@@ -48,9 +48,16 @@ print(str34[7:11])
 print(str34[:6])#[0:6]
 print(str34[7:])#[7:11]
 
+
+
 str56="apple"
 
 print(str56[-3:-1]) #pl
+
+# minas value hola last thaka count start hoba like -1 -2 -3 
+
+#print(str56[-3:-1]) achana last thka 123 kora count korla 3 no a p achia r last value ta count kora hoba na 
+
 
 print(str56[-5:-2]) #app
 
@@ -143,4 +150,10 @@ if(age2>=18):
 
 else:
     print("you can not drive")
+
+
+
+
+
+
 
