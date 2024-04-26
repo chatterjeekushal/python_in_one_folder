@@ -1,46 +1,46 @@
 
 
 
-# dict={
+dict={
 
-#     "key":"value",
-#     "name":"kushal",
-#     "learning":"python",
-# "age":19,
-# "is_adult":True,
-# "marks":[67,98,34]
-# }
-
-
-# print(dict)
-
-# print(type(dict))
+    "key":"value",
+    "name":"kushal",
+    "learning":"python",
+"age":19,
+"is_adult":True,
+"marks":[67,98,34]
+}
 
 
-#  # print dict value by his key
-# print(dict["name"]) 
-# print(dict["age"]) 
+print(dict)
+
+print(type(dict))
 
 
-# # change key value
-
-# dict["name"]="rana"
-
-# # create new key value
-
-# dict["suremane"]="chatterjee"
-
-# print(dict)
+ # print dict value by his key
+print(dict["name"]) 
+print(dict["age"]) 
 
 
+# change key value
 
-# # create null dict
+dict["name"]="rana"
 
-# null_dict={}
+# create new key value
 
-# null_dict["code"]="java"
+dict["suremane"]="chatterjee"
 
-# print(null_dict)
+print(dict)
+
+
+
+# create null dict
+
+null_dict={}
+
+null_dict["code"]="java"
+
+print(null_dict)
 
 
 
@@ -59,6 +59,16 @@ student={
 
 
 }
+
+# print subject kry
+
+print(student["subject"])
+
+
+# print sub key and value
+
+print(student["subject"]["phy"])
+
 
 
 # print(student[0])
@@ -90,7 +100,7 @@ print(student.items())
 print(student.get("name"))
 
 
-# returns the specified items to the Dictionary
+# update or add value in dict 
 
 student.update({"city":"kolkata"})
 
@@ -129,6 +139,54 @@ dict2.update({key:value})
 print(dict2)
 
 
+
+# >>> for item in student:
+# ...     print(item,student[item])
+# ... 
+# name rana
+# age 20
+# add subhas
+# >>>
+
+
+
+# >>> for key , value  in student.items():
+# ...     print(key,value)
+# ... 
+# name rana
+# age 20
+# add subhas
+# >>>
+
+
+# >>> for key , value  in student.items():
+# ...     print(key,value)
+# ... 
+# name rana
+# age 20
+# add subhas
+
+
+
+
+# >>> student ={"name":"rana","add":"sub","age":19}
+# >>> student                                      
+# {'name': 'rana', 'add': 'sub', 'age': 19}
+# >>> del student["name"]
+# >>> student
+# {'add': 'sub', 'age': 19}
+# >>> 
+
+
+
+# >>> key=["masala" ,"ginger","lemon"]
+# >>> key                             
+# ['masala', 'ginger', 'lemon']
+# >>> defult_value="delishis"
+# >>> new_dict=dict.fromkeys(key,defult_value)  
+# >>> new_dict                                
+# {'masala': 'delishis', 'ginger': 'delishis', 'lemon': 'delishis'}
+# >>>
 
 
 
