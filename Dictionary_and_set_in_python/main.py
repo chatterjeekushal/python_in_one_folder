@@ -139,6 +139,7 @@ dict2.update({key:value})
 print(dict2)
 
 
+#print key and value by loop
 
 # >>> for item in student:
 # ...     print(item,student[item])
@@ -148,6 +149,7 @@ print(dict2)
 # add subhas
 # >>>
 
+#print key value by loop helps of item mathod
 
 
 # >>> for key , value  in student.items():
@@ -167,7 +169,7 @@ print(dict2)
 # add subhas
 
 
-
+#delete key value in object 
 
 # >>> student ={"name":"rana","add":"sub","age":19}
 # >>> student                                      
@@ -177,7 +179,7 @@ print(dict2)
 # {'add': 'sub', 'age': 19}
 # >>> 
 
-
+# set defult value in object 
 
 # >>> key=["masala" ,"ginger","lemon"]
 # >>> key                             
