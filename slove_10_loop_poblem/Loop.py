@@ -135,28 +135,41 @@ name="kushal"
 
 items = ["apple", "banana", "orange", "apple", "mango"]
 
-# for item in items:
-#     if(items.count(item)):
-#         print("your duplcate item is ",item)
-#         break
-#     else:
-#         print("your item is ",item)
-
-
-# prosses2
-
-uniqye_item=set()
-
 for item in items:
-    if item in uniqye_item:
-        print("duplicate",item)
+    if(items.count(item)):
+        print("your duplcate item is ",item)
         break
-    uniqye_item.add(item)
+    else:
+        print("your item is ",item)
+
+
+# # prosses2
+
+# uniqye_item=set()
+
+# for item in items:
+#     if item in uniqye_item:
+#         print("duplicate",item)
+#         break
+#     uniqye_item.add(item)
 
 
 
 
 
+#resive the duplicate value
+
+myset=("kushal","rana","kushal")
+
+
+
+
+for item in myset:
+    if(myset.count(item)):
+        print("your duplcate item is ",item)
+        break
+    else:
+        print("your item is ",item)
 
 
 
