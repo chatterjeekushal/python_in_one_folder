@@ -1,8 +1,10 @@
 
-# 1. Counting Positive Numbers
-# Problem: Given a list of numbers, count how many are positive.
-# numbers = [1, -2, 3, -4, 5, 6, -7, -8, 9, 10]
 
+
+
+
+
+# 1. Counting Positive Numbers
 # numbers = [1, -2, 3, -4, 5, 6, -7, -8, 9, 10]
 
 # positive_number_count=0
@@ -12,6 +14,9 @@
 #         print(num)
 #         positive_number_count+=1
 # print("final count of positive number is",positive_number_count)
+
+
+
 
 
 
@@ -35,16 +40,19 @@
 # 3. Multiplication Table Printer
 # Problem: Print the multiplication table for a given number up to 10, but skip the fifth iteration.
 
-# n=2
+n=2
 
-# table=0
+table=0
 
-# for t in range(1,11):
-#     if(t==5):
+for t in range(1,11):
+    if(t==5):
+        t=8
+        continue
     
-#         continue
-    
-#     print(n,"x",t,"=",n*t)
+    print(n,"x",t,"=",n*t)
+
+
+
 
 
 # 4. Reverse a String

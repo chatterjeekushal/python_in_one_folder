@@ -100,3 +100,19 @@ else:
     print("palindrom false")
 
 
+
+
+# loop in list
+
+my_list_data=[1,7,8,4,76]
+
+for data in my_list_data:
+    print(f" my data {data}")
+    
+    
+
+i=0
+
+while i<len(my_list_data):
+    print(f"{i} and {my_list_data[i]}")
+    i+=1

@@ -139,56 +139,82 @@ dict2.update({key:value})
 print(dict2)
 
 
-#print key and value by loop
-
-# >>> for item in student:
-# ...     print(item,student[item])
-# ... 
-# name rana
-# age 20
-# add subhas
-# >>>
-
-#print key value by loop helps of item mathod
 
 
-# >>> for key , value  in student.items():
-# ...     print(key,value)
-# ... 
-# name rana
-# age 20
-# add subhas
-# >>>
+
+# print dect in loop
+
+my_dect_data={
+    
+    
+    "name":"rana",
+    "learning":"java",
+"age":20,
+"is_adult":True,
+"marks":[200,100,500]
+}
 
 
-# >>> for key , value  in student.items():
-# ...     print(key,value)
-# ... 
-# name rana
-# age 20
-# add subhas
+for key,value in my_dect_data.items():
+    
+    print(f"{key} and {value}")
 
 
-#delete key value in object 
+    
 
-# >>> student ={"name":"rana","add":"sub","age":19}
-# >>> student                                      
-# {'name': 'rana', 'add': 'sub', 'age': 19}
-# >>> del student["name"]
-# >>> student
-# {'add': 'sub', 'age': 19}
-# >>> 
 
-# set defult value in object 
+# #print key and value by loop
 
-# >>> key=["masala" ,"ginger","lemon"]
-# >>> key                             
-# ['masala', 'ginger', 'lemon']
-# >>> defult_value="delishis"
-# >>> new_dict=dict.fromkeys(key,defult_value)  
-# >>> new_dict                                
-# {'masala': 'delishis', 'ginger': 'delishis', 'lemon': 'delishis'}
-# >>>
+# # >>> for item in student:
+# # ...     print(item,student[item])
+# # ... 
+# # name rana
+# # age 20
+# # add subhas
+# # >>>
+
+# #print key value by loop helps of item mathod
+
+
+# # >>> for key , value  in student.items():
+# # ...     print(key,value)
+# # ... 
+# # name rana
+# # age 20
+# # add subhas
+# # >>>
+
+
+# # >>> for key , value  in student.items():
+# # ...     print(key,value)
+# # ... 
+# # name rana
+# # age 20
+# # add subhas
+
+
+# #delete key value in object 
+
+# # >>> student ={"name":"rana","add":"sub","age":19}
+# # >>> student                                      
+# # {'name': 'rana', 'add': 'sub', 'age': 19}
+# # >>> del student["name"]
+# # >>> student
+# # {'add': 'sub', 'age': 19}
+# # >>> 
+
+# # set defult value in object 
+
+# # >>> key=["masala" ,"ginger","lemon"]
+# # >>> key                             
+# # ['masala', 'ginger', 'lemon']
+# # >>> defult_value="delishis"
+# # >>> new_dict=dict.fromkeys(key,defult_value)  
+# # >>> new_dict                                
+# # {'masala': 'delishis', 'ginger': 'delishis', 'lemon': 'delishis'}
+# # >>>
+
+
 
 
 

@@ -45,6 +45,3 @@ print(tup5.index(34)) # returns index of first occurrence
 print(tup5.count(56)) # count total occurrences
 
 
-
-
-
