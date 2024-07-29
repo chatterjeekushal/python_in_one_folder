@@ -83,6 +83,8 @@ print(cube(3))
 # Problem: Create a function that accepts any number of keyword arguments and prints them in the format key: value
 
 def print_kwargs(**kwargs):
+
+    print(f"keyargs is {kwargs}")
     for key ,value in kwargs.items():
         print(f"{key}: {value}")
         
@@ -90,6 +92,16 @@ def print_kwargs(**kwargs):
 print_kwargs(name='rohan',age='20')
 
 
+
+
+# ARGS IN PYTHON
+
+
+def print_args(*args):
+    print(f"args is {args}")
+
+
+print_args(2,67,56)
 
 
 # 9. Generator Function with yield
